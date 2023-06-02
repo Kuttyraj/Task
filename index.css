@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:  'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;;
+}
+.navbar{
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav{
+    display: flex;
+    padding-left: 5%;
+}
+.logo{
+    font-size: 25px;
+    color: blueviolet;
+}
+.logo-simple{
+    background-color:blueviolet ;
+    padding: 2px 12px ;
+}
+.logo span{
+    color: orangered;
+    font-family:  'Lobster', 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.padding-left-360px{
+    padding-left: 360px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    list-style: none;
+    /* color: white; */
+    font-size: 15px;
+    
+}
+nav ul li:hover{
+color: orangered;
+transition: 0.5s;
+}
+
+section {
+    z-index: 4;
+    position: fixed;
+  }
+  
+  #yellow {
+    z-index: 1;
+    background-color: yellow;
+  }
+  
+  #white {
+    z-index: 2;
+    bottom: 50px;
+    left: 1000px;
+    background-color: white;
+  }
+  
+  
+  div {
+    position: fixed;
+    width: 1200px;
+    height: 400px;
+    border: 0px solid black;
+    border-radius: 8px;
+    color: white;
+    padding: 0.5rem;
+  }
+  .center-text{
+    display: flex;
+    padding-left: 7%;
+  }
+  .text-color{
+    color: blueviolet;
+    font-size: 25px;
+  }
+  .text-color1{
+    color: black;
+  }
